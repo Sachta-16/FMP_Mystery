@@ -131,8 +131,9 @@ GameObject:
   - component: {fileID: 33060181}
   - component: {fileID: 33060183}
   - component: {fileID: 33060182}
+  - component: {fileID: 33060184}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Suspects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,6 +228,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &33060184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33060180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e6c3efbb12b754591250bcd8b8fcd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &105980360
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,8 +747,9 @@ GameObject:
   - component: {fileID: 251986206}
   - component: {fileID: 251986208}
   - component: {fileID: 251986207}
+  - component: {fileID: 251986209}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Neighbour Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,6 +844,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &251986209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251986205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3beefaf7455854b888db53e8b32918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &319297355
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,8 +867,9 @@ GameObject:
   - component: {fileID: 319297356}
   - component: {fileID: 319297358}
   - component: {fileID: 319297357}
+  - component: {fileID: 319297359}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Neighbour One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -937,6 +964,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &319297359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319297355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa81a7c9fb6fd744a95f6b254673a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &403647879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,8 +1094,9 @@ GameObject:
   - component: {fileID: 421888899}
   - component: {fileID: 421888901}
   - component: {fileID: 421888900}
+  - component: {fileID: 421888902}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1151,6 +1191,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &421888902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421888898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98c8100061589d4382890d68e5c0750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &435016509
 GameObject:
   m_ObjectHideFlags: 0
@@ -2221,8 +2273,9 @@ GameObject:
   - component: {fileID: 717697185}
   - component: {fileID: 717697187}
   - component: {fileID: 717697186}
+  - component: {fileID: 717697188}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Treeman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2317,6 +2370,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &717697188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717697184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8cb36bbf4819554c997a9b8a62cbc79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &767328985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2328,8 +2393,9 @@ GameObject:
   - component: {fileID: 767328986}
   - component: {fileID: 767328988}
   - component: {fileID: 767328987}
+  - component: {fileID: 767328989}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Innkeeper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2424,6 +2490,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &767328989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767328985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0040ff66b62c0e5469a4c231176518df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &977120238
 GameObject:
   m_ObjectHideFlags: 0
@@ -87938,8 +88016,9 @@ GameObject:
   - component: {fileID: 1899726228}
   - component: {fileID: 1899726230}
   - component: {fileID: 1899726229}
+  - component: {fileID: 1899726231}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Spirit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88034,6 +88113,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1899726231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899726227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3005fb02cdc7b724e9a5131461cf5fc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1956294012
 GameObject:
   m_ObjectHideFlags: 0
@@ -88152,8 +88243,9 @@ GameObject:
   - component: {fileID: 2113183595}
   - component: {fileID: 2113183597}
   - component: {fileID: 2113183596}
+  - component: {fileID: 2113183598}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: NPC Mole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88248,6 +88340,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2113183598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113183594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e798fd7bd1c26e4bb801da6b91b3e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2138588989
 GameObject:
   m_ObjectHideFlags: 0
