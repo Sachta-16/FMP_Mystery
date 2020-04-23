@@ -5,8 +5,9 @@ using UnityEngine.EventSystems;
 
 public class GuardInteraction : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject GuardSpeechBubble;
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Working");
+        GuardSpeechBubble.gameObject.SetActive(true);
     }
 }

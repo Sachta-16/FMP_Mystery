@@ -5,8 +5,9 @@ using UnityEngine.EventSystems;
 
 public class InnkeeperInteraction : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject InnkeeperSpeechBubble;
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Working");
+        InnkeeperSpeechBubble.gameObject.SetActive(true);
     }
 }

@@ -5,9 +5,10 @@ using UnityEngine.EventSystems;
 
 public class MoleInteraction : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject MoleSpeechBubble;
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Working");
+        MoleSpeechBubble.gameObject.SetActive(true);
     }
 }
 

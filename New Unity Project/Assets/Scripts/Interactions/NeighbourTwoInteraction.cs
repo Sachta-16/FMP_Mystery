@@ -5,8 +5,9 @@ using UnityEngine.EventSystems;
 
 public class NeighbourTwoInteraction : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject NeighbourTwoSpeechBubble;
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Working");
+        NeighbourTwoSpeechBubble.gameObject.SetActive(true);
     }
 }

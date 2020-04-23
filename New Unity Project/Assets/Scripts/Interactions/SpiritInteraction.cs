@@ -5,8 +5,9 @@ using UnityEngine.EventSystems;
 
 public class SpiritInteraction : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject SpiritSpeechBubble;
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Working");
+        SpiritSpeechBubble.gameObject.SetActive(true);
     }
 }

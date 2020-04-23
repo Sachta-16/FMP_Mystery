@@ -5,8 +5,9 @@ using UnityEngine.EventSystems;
 
 public class SuspectInteraction : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject SuspectSpeechBubble;
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Working");
+        SuspectSpeechBubble.gameObject.SetActive(true);
     }
 }

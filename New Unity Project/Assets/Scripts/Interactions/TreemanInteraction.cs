@@ -5,8 +5,9 @@ using UnityEngine.EventSystems;
 
 public class TreemanInteraction : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject TreemanSpeechBubble;
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Working");
+        TreemanSpeechBubble.gameObject.SetActive(true);
     }
 }
